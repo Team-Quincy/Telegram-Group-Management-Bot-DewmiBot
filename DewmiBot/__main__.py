@@ -61,13 +61,12 @@ from DewmiBot.modules.helper_funcs.misc import paginate_modules
 from DewmiBot.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-*Hi, my name is* 🌸 දෙව්මි උත්තරා [🌸](https://telegra.ph/file/8cabfc3e05d3302d73dde.jpg) !
+*Hi, I am*🍏 Quincy [🥀](https://te.legra.ph/file/6a042aed8b978da959b00.jpg) !
 
-I am a Powerful Group Manager bot Developed by [GD Hiruna](t.me/hirunaofficial)
+🍎I am a Powerful Group Manager bot 🎈Developed by📌️ [Kasun bandara](t.me/SANTA_R2)
+🥀Hit /help to get my usefull commands📖.
 
-You can find my list of available commands with /help.
-
-©2021 [@DewmiBot](t.me/dewmibot) Bot All Rights Reserved
+I am cool and lovely♥️ project in your groups🍎.
 """
 
 HELP_STRINGS = f"""
