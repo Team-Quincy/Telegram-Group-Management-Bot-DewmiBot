@@ -70,18 +70,18 @@ I am cool and lovely♥️ project in your groups🍎.
 """
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/8cabfc3e05d3302d73dde.jpg)
-Hey there! My name is *🌸 දෙව්මි උත්තරා 🌸*
-I'm Powerful BOT to Make Your Groups Secured and Organized & I help admins to manage their groups! Have a look at the following for an idea of some of \
-the things I can help you with.
+*Main Commands :* [🤖](https://te.legra.ph/file/6a042aed8b978da959b00.jpg)
+Hey there🥀! My name is🍏 *Quincy*
+I'm Powerful BOT🍎 to Make Your Groups Secured esyly🌷  \
+Add me🍎 your groups and promote me🖍️.My beautiful commands are below🔋.
 
 Main commands available:
- • /help: PM's you this message.
- • /help <module name>: PM's you info about that module.
- • /donate: information on how to donate!
- • /settings:
-   • in PM: will send you your settings for all supported modules.
-   • in a group: will redirect you to pm, with all that chat's settings.
+ •🖍️ /help: PM's you this message.
+ •🔖 /help <module name>: PM's you info about that module.
+ • 🖍️/donate: information on how to donate!
+ •🔖 /settings:
+   •🖍️ in PM: will send you your settings for all supported modules.
+   • 🔖in a group: will redirect you to pm, with all that chat's settings.
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
@@ -89,32 +89,32 @@ Main commands available:
 
 
 DONATE_STRING = """
-*🌸 දෙව්මි උත්තරා 🌸* is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
-You can donate to the developer of the *🌸 දෙව්මි උත්තරා 🌸*, [GD Hiruna](t.me/hirunaofficial)
+*Quincy 🍎* heya baby \
+You can donate ♥️ to the developer of the *Quincy*, [Kasun bandara](t.me/SANTA_R1)
 """
 
 BUTTONS = [
                     [
                         InlineKeyboardButton(
-                             text=" 👪 Support Group ",
-                             url="https://t.me/sltechzoneofficial"),
+                             text=" 🍏Support group🍏 ",
+                             url="https://t.me/TeamQuincy"),
                          InlineKeyboardButton(
-                             text=" 🔔 Update Channel ",
-                             url="https://t.me/sltechzone")
+                             text=" 🧘‍♂Updates🧘‍♂ ",
+                             url="https://t.me/TeamQuincyupdates")
                     ],
                     [
                         InlineKeyboardButton(
-                            text=" 🙋 Help ",
-                            url="https://t.me/dewmibot?start=help"),
+                            text=" ✅ Help❓ ",
+                            url="https://t.me/MissQuincybot?start=help"),
                          InlineKeyboardButton(
-                            text=" ⚡️ Developer ",
-                             url="https://t.me/hirunaofficial")        
+                            text=" 📌️Developer📌️ ",
+                             url="https://t.me/SANTA_R1")        
                        
                     ],
                     [
                         InlineKeyboardButton(
-                            text=" ➕ Add Me to Your Group ",
-                            url="t.me/dewmibot?startgroup=true")
+                            text=" 🚶Add Me to Your Group🚶 ",
+                            url="t.me/MissQuincybot?startgroup=true")
                     
                     ],
             ]
@@ -365,11 +365,11 @@ def DewmiBot_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"👋 Hi again!  The name's {dispatcher.bot.first_name} is a Powerful BOT to Make Your Groups Secured and Organized Developed by [GD Hiruna](https://t.me/hirunaofficial)"
-            f"\n\n✍️ Join [SL Tech Zone](https://t.me/sltechzone) To Keep Yourself Updated About {dispatcher.bot.first_name}"
+            text=f"👋 Hi again!  The name's {dispatcher.bot.first_name} is a Powerful BOT to Make Your Groups Secured and Organized Developed by [kasun bandara](https://t.me/SAnta_r1)"
+            f"\n\n🚶 Join [Quincy support](https://t.me/Teamquincy) To Keep Yourself Updated About {dispatcher.bot.first_name}"
             f"\n\n💪 I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
-            f"\n\n👊 I Can Manage Your Groups Smoothly, With Some Special Features."
-            f"\n\n[👇](https://telegra.ph/file/8cabfc3e05d3302d73dde.jpg) You Can Know More About Me By Clicking The Below Buttons.",
+            f"\n\n🍎 I Can Manage Your Groups Smoothly, With Some Special Features."
+            f"\n\n[👇](https://te.legra.ph/file/6a042aed8b978da959b00.jpg) You Can Know More About Me By Clicking The Below Buttons.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -403,7 +403,7 @@ def DewmiBot_about_callback(update, context):
         query.message.edit_text(
             text=f"* ｢ BASIC HELP 」*"
             f"\n\n👉 If You Can Also Add {dispatcher.bot.first_name} To Your Chats By Clicking [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) And Selecting Chat. \n"
-            f"\n\n👉 You Can get support {dispatcher.bot.first_name} by joining [SL Tech Zone](https://t.me/sltechzone).\n"
+            f"\n\n👉 You Can get support {dispatcher.bot.first_name} by joining [Quincy Support](https://t.me/Teamquincy).\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
