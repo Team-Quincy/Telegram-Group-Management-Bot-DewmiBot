@@ -270,7 +270,7 @@ Tagger is an essential feature to mention all subscribed members in the group. A
 👉 /addtag <userhandle>: add a user to chat tag list. (via handle, or reply)
 👉 /removetag <userhandle>: remove a user to chat tag list. (via handle, or reply)
 
-@dewmibot
+@missquincybot
 """
 
 TAG_ALL_HANDLER = DisableAbleCommandHandler("tagall", tagall, filters=Filters.group)
