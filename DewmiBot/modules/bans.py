@@ -595,21 +595,21 @@ def selfunban(context: CallbackContext, update: Update) -> str:
 
 __help__ = """
 *Kicks:*
- 👉 /kick <userhandle>*:* Kicks a user out of the group, (via handle, or reply)
- 👉 /skick <userhandle>*:* Silently kicks a user out of the group, (via handle, or reply)
- 👉 /kickme*:* Kicks the user who used the command.
+ 🍇 /kick <userhandle>*:* Kicks a user out of the group, (via handle, or reply)
+ 🍊 /skick <userhandle>*:* Silently kicks a user out of the group, (via handle, or reply)
+ 🍉 /kickme*:* Kicks the user who used the command.
  
 *Bans:*
- 👉 /ban <userhandle>*:* Bans a user. (via handle, or reply)
- 👉 /sban <userhandle>*:* Silently bans a user without leaving any message. (via handle, or reply)
- 👉 /tban <userhandle> x(m/h/d)*:* Bans a user for `x` time. (via handle, or reply). `m` = `minutes`, `h` = `hours`, `d` = `days`.
- 👉 /stban <userhandle> x(m/h/d)*:* Silently bans a user for `x` time. (via handle, or reply). `m` = `minutes`, `h` = `hours`, `d` = `days`.
- 👉 /unban <userhandle>*:* Unbans a user. (via handle, or reply)
+ 🍉 /ban <userhandle>*:* Bans a user. (via handle, or reply)
+ 🍇 /sban <userhandle>*:* Silently bans a user without leaving any message. (via handle, or reply)
+ 🍑 /tban <userhandle> x(m/h/d)*:* Bans a user for `x` time. (via handle, or reply). `m` = `minutes`, `h` = `hours`, `d` = `days`.
+ 🍏 /stban <userhandle> x(m/h/d)*:* Silently bans a user for `x` time. (via handle, or reply). `m` = `minutes`, `h` = `hours`, `d` = `days`.
+ 🍎 /unban <userhandle>*:* Unbans a user. (via handle, or reply)
 
 _NOTE:_
  If you set Log Channels, you will get logs of Silent kick and bans. Check *Logger* module to know more about Log Channel.
  
- @dewmibot
+ @Missquincybot
 """
 
 BAN_HANDLER = CommandHandler("ban", ban)
