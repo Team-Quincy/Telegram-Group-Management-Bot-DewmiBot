@@ -63,7 +63,7 @@ from DewmiBot.modules.helper_funcs.readable_time import get_readable_time
 PM_START_TEXT = """
 *Hi, I am*🍏 Quincy [🥀](https://te.legra.ph/file/6a042aed8b978da959b00.jpg) !
 
-🍎I am a Powerful Group Manager bot 🎈Developed by📌️ [Kasun bandara](t.me/SANTA_R2)
+🍎I am a Powerful Group Manager bot Developed by📌️ [Kasun bandara](t.me/SANTA_R1)
 🥀Hit /help to get my usefull commands📖.
 
 I am cool and lovely♥️ project in your groups🍎.
@@ -77,11 +77,11 @@ Add me🍎 your groups and promote me🖍️.My beautiful commands are below🔋
 
 Main commands available:
  •🖍️ /help: PM's you this message.
- •🔖 /help <module name>: PM's you info about that module.
+ •🖍️ /help <module name>: PM's you info about that module.
  • 🖍️/donate: information on how to donate!
- •🔖 /settings:
+ •🖍️ /settings:
    •🖍️ in PM: will send you your settings for all supported modules.
-   • 🔖in a group: will redirect you to pm, with all that chat's settings.
+   • 🖍️in a group: will redirect you to pm, with all that chat's settings.
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
@@ -89,14 +89,14 @@ Main commands available:
 
 
 DONATE_STRING = """
-*Quincy 🍎* heya baby \
+*Quincy 🖍️* heya baby \
 You can donate ♥️ to the developer of the *Quincy*, [Kasun bandara](t.me/SANTA_R1)
 """
 
 BUTTONS = [
                     [
                         InlineKeyboardButton(
-                             text=" 🍏Support group🍏 ",
+                             text=" 🙋Support group🙋 ",
                              url="https://t.me/TeamQuincy"),
                          InlineKeyboardButton(
                              text=" 🧘‍♂Updates🧘‍♂ ",
@@ -104,7 +104,7 @@ BUTTONS = [
                     ],
                     [
                         InlineKeyboardButton(
-                            text=" ✅ Help❓ ",
+                            text="  Help❓ ",
                             url="https://t.me/MissQuincybot?start=help"),
                          InlineKeyboardButton(
                             text=" 📌️Developer📌️ ",
