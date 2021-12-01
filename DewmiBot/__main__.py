@@ -61,7 +61,7 @@ from DewmiBot.modules.helper_funcs.misc import paginate_modules
 from DewmiBot.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-*Hi, I am*🍏 Quincy [🥀](https://te.legra.ph/file/6a042aed8b978da959b00.jpg) !
+*Hi, I am*🍏 Quincy [🥀](https://te.legra.ph/file/4c94f0be94a6000ec3acc.jpg) !
 
 🍎I am a Powerful Group Manager bot Developed by📌️ [Kasun bandara](t.me/SANTA_R1)
 🥀Hit /help to get my usefull commands📖.
@@ -70,7 +70,7 @@ I am cool and lovely♥️ project in your groups🍎.
 """
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://te.legra.ph/file/6a042aed8b978da959b00.jpg)
+*Main Commands :* [🤖](https://te.legra.ph/file/4c94f0be94a6000ec3acc.jpg)
 Hey there🥀! My name is🍏 *Quincy*
 I'm Powerful BOT🍎 to Make Your Groups Secured esyly🌷  \
 Add me🍎 your groups and promote me🖍️.My beautiful commands are below🔋.
